@@ -1,13 +1,16 @@
 :root {
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
-  --main-color: #212121;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --secondary-color: #757575;
   --background-btn-color: #f5f4fa;
   --header-background-color: #ffffff;
   --footer-background-color: #2f303a;
-  --logo-link-black-color: #000000;
+  --black-color: #000000;
+  --main-color: #212121;
   --footer-mail-tel: rgba(255, 255, 255, 0.6);
-  --social-link-color: #afb1b8;
+  --border-color: #ececec;
+  --pj-border-color: #eeeeee;
+  --social-color: #afb1b8;
+  --overlay-color: rgba(33, 150, 243, 0.9);
 }

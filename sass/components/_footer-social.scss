@@ -18,13 +18,13 @@
   margin-bottom: 20px;
 }
 
-.footer__social-list {
+.footer__icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.footer__social-item {
+.footer__icon {
   &:not(:last-child) {
     margin-right: 10px;
   }
