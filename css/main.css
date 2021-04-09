@@ -475,11 +475,11 @@ ol {
   animation-iteration-count: 1;
 }
 
-.logo_black {
+.logo__black {
   color: var(--black-color);
 }
 
-.logo_white {
+.logo__white {
   color: var(--header-background-color);
 }
 

@@ -34,12 +34,12 @@
   animation-duration: 1000ms;
   animation-timing-function: linear;
   animation-iteration-count: 1;
-  &_black {
-    color: var(--black-color);
-  }
-  &_white {
-    color: var(--header-background-color);
-  }
+}
+.logo__black {
+  color: var(--black-color);
+}
+.logo__white {
+  color: var(--header-background-color);
 }
 
 .menu {
