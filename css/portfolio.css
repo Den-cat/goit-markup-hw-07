@@ -55,6 +55,19 @@ ol {
   color: var(--accent-color);
 }
 
+.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -226,6 +239,7 @@ ol {
 }
 
 .header__container {
+  font-family: var(--main-font);
   display: flex;
   align-items: center;
   padding-top: 24px;
@@ -416,6 +430,7 @@ ol {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+  margin-left: 15;
 }
 
 .portfolio__btn-item:not(:last-child) {

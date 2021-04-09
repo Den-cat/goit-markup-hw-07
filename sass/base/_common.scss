@@ -24,6 +24,18 @@ ol {
 }
 .active {
   color: var(--accent-color);
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: var(--accent-color);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+  }
 }
 .title {
   font-weight: 700;
